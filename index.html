@@ -1,1 +1,40 @@
-<!-- index.html --> <!DOCTYPE html> <html lang="es"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Mi Portafolio — Ingeniería de Sistemas</title> <link rel="stylesheet" href="styles.css"> </head> <body> <header> <nav> <a href="#inicio">Inicio</a> <a href="#proyectos">Proyectos</a> <a href="#contacto">Contacto</a> </nav> </header> <main> <section id="inicio" class="hero"> <h1>Hola, soy Suzzet</h1> <p>Estudiante de Ingeniería de Sistemas</p> <button id="btn-ver-mas">Ver más</button> </section> <section id="proyectos"> <h2>Mis Proyectos</h2> <div class="grid-proyectos"> <!-- Los proyectos se inyectan desde JS --> </div> </section> </main> <footer> <p>© 2026 — Todos los derechos reservados</p> </footer> <script src="script.js"></script> </body> </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio — Ingeniería de Sistemas</title>
+    <!-- Se actualiza la ruta a style.css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Hola, soy Suzzet</h1>
+            <p>Estudiante de Ingeniería de Sistemas</p>
+            <button id="btn-ver-mas">Ver más</button>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="grid-proyectos">
+                <!-- Los proyectos se inyectan desde JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 — Todos los derechos reservados</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
